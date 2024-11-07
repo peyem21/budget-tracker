@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1%;
+}
+
+ul {
+  list-style-type: none;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  margin: 0;
+  background-color: aquamarine; */
+}
+/* 
+.theme-button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  right: 2px;
+}
+
+.delete-button {
+  background-color: red;
+  padding: 0.5rem 5px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.add-button {
+  background-color: green;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+} */
+
+/* Container Styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.container.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.container.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form select {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.form button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Theme Toggle Button */
+.theme-button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 4px;
+}
+
+/* Category Form Styles */
+.add-category-form input {
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Transaction List */
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Buttons */
+.delete-button {
+  background: none;
+  border: none;
+  color: rgb(214, 64, 64);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Summary List */
+.summary-list {
+  list-style: none;
+  padding: 0;
+}
+
+.summary-item {
+  padding: 5px 0;
+}
